@@ -26,8 +26,8 @@ REQUIRED ARGUMENTS
                                     human), a bowtie2 genome index must be in the same directory as
                                     the fasta file.
 
--b, --build-genome-index <string>   This should be set to \"true\" for small genomes (e.g. viral
-                                    genomes) and \"false\" for larger genomes (e.g. human genomes).
+-b, --build-genome-index <string>   This should be set to "true" for small genomes (e.g. viral
+                                    genomes) and "false" for larger genomes (e.g. human genomes).
                                     Default: true. Possible values: {true, false}
 
 -r, --repeat <string>               Repeat to find.
@@ -53,7 +53,7 @@ ADVANCED ARGUMENTS
 
 --no-novel-juncs <string>           By default, TopHat will look for novel splice junctions in
                                     reads. If FIND NONTEMPLATED TAILS fails because of a TopHat
-                                    error \"Error: Splice sequence indexing failed with err =1\",
+                                    error "Error: Splice sequence indexing failed with err =1",
                                     then set --no-novel-juncs to true. Otherwise --no-novel-juncs
                                     should be set to false. Default: false. Possible values: {true,
                                     false}
